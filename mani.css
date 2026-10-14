@@ -1,0 +1,85 @@
+.body{
+    background-color: white;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+.sitafor{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    height: 900px;
+    width: 900px;
+    border-radius: 50px;
+
+}
+.qizil{
+    background-color: red;
+    animation-name: disco;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: rgb(110, 4, 4);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+
+}
+.sariq{
+       background-color: #ffd562;
+    /* animatsiya setting */
+    animation-name: round;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    background-color: rgb(142, 129, 11);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+}
+.yashil{
+    background-color: #62ff74;
+    /* animatsiya setting */
+    animation-name: cube;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    background-color: rgb(8, 83, 23);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+
+}
+
+@keyframes disco {
+
+    0% {
+        background-color: rgb(244, 12, 12);
+
+    }
+
+
+}
+@keyframes round{
+        5% {
+        background-color: #d9e017;
+
+    }
+}
+@keyframes cube{
+        10% {
+        background-color: rgb(20, 224, 5);
+
+    }
+}
+
+
+
+
+
+
+
